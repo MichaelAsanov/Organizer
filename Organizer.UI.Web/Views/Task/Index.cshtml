@@ -1,0 +1,78 @@
+﻿
+@{
+    ViewBag.Title = "Задачи";
+}
+
+<script src="@Url.Content("~/Scripts/angular.js")"></script>
+<script src="@Url.Content("~/Angular/organizerApp.js")"></script>
+<script src="@Url.Content("~/Angular/Services/taskService.js")"></script>
+<script src="@Url.Content("~/Angular/Controllers/taskController.js")"></script>
+
+<script src="@Url.Content("~/Scripts/load-modal-content.js")"></script>
+
+<div ng-app="organizerApp" ng-controller="taskController">
+    <h2>@ViewBag.Title</h2>
+
+    <button id="add_task_btn" class="btn btn-primary" ng-click="LoadContentToModal('/Task/Create/', '#add_task', '#add_task .modal-content')">
+        Добавить задачу
+    </button>
+
+    <div class="alert alert-info" ng-if="TasksAreLoading" role="alert">Загружаю задачи...</div>
+
+    <table ng-hide="TasksAreLoading" class="table table-bordered table-condensed table-hover table-responsive table-striped">
+        <tr>
+            <th>Описание задачи</th>
+            <th>Статус</th>
+            <th></th>
+            <th></th>
+        </tr>
+
+        <tr ng-repeat="task in Tasks">
+            <td>{{task.Description}}</td>
+            <td>
+                <span ng-if="!task.Completed" class="label label-danger">Не выполнена</span>
+                <span ng-if="task.Completed" class="label label-success">Выполнена</span>
+            </td>
+            <td>
+                <a class="btn btn-primary btn-sm" ng-if="!task.Completed" ng-disabled="task.MarkingAsCompleted" ng-click="MarkTaskAsCompleted(task);">
+                    Пометить как выполненную
+                </a>
+                <img class="spinner" src="@Url.Content("~/Content/img/spinner.gif")" ng-if="task.MarkingAsCompleted"/>
+            </td>
+            <td>
+                @*<a class="btn btn-danger btn-sm" href="@(Url.Content("~/Task/Delete/")){{task.Id}}">Удалить</a>*@
+                <a class="btn btn-danger btn-sm" ng-click="LoadContentToModal('/Task/Delete/' + task.Id, '#del_task', '#del_task .modal-content')">Удалить</a>
+            </td>
+        </tr>
+    </table>
+
+
+    @* Модальное окно удаления задачи *@
+    <div id="del_task" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+               
+            </div>
+        </div>
+    </div>
+
+    @* Модальное окно добавления задачи *@
+    <div id="add_task" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts
+{
+    @*<script>
+        $(function() {
+            $("body").delegate("#add_task_btn", "click", function() {
+                loadContentToModal("@Url.Action("Create")", );
+            });
+        });
+    </script>*@
+}

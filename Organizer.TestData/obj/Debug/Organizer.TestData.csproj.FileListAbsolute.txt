@@ -1,0 +1,17 @@
+E:\Visual Studio 2015\Projects\Organizer\Organizer.TestData\bin\Debug\Organizer.TestData.dll.config
+E:\Visual Studio 2015\Projects\Organizer\Organizer.TestData\bin\Debug\Organizer.TestData.dll
+E:\Visual Studio 2015\Projects\Organizer\Organizer.TestData\bin\Debug\Organizer.TestData.pdb
+E:\Visual Studio 2015\Projects\Organizer\Organizer.TestData\bin\Debug\Common.dll
+E:\Visual Studio 2015\Projects\Organizer\Organizer.TestData\bin\Debug\EntityFramework.dll
+E:\Visual Studio 2015\Projects\Organizer\Organizer.TestData\bin\Debug\EntityFramework.SqlServer.dll
+E:\Visual Studio 2015\Projects\Organizer\Organizer.TestData\bin\Debug\Organizer.Data.dll
+E:\Visual Studio 2015\Projects\Organizer\Organizer.TestData\bin\Debug\Organizer.Domain.dll
+E:\Visual Studio 2015\Projects\Organizer\Organizer.TestData\bin\Debug\Common.pdb
+E:\Visual Studio 2015\Projects\Organizer\Organizer.TestData\bin\Debug\EntityFramework.xml
+E:\Visual Studio 2015\Projects\Organizer\Organizer.TestData\bin\Debug\EntityFramework.SqlServer.xml
+E:\Visual Studio 2015\Projects\Organizer\Organizer.TestData\bin\Debug\Organizer.Data.pdb
+E:\Visual Studio 2015\Projects\Organizer\Organizer.TestData\bin\Debug\Organizer.Domain.pdb
+E:\Visual Studio 2015\Projects\Organizer\Organizer.TestData\bin\Debug\ru\EntityFramework.resources.dll
+E:\Visual Studio 2015\Projects\Organizer\Organizer.TestData\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+E:\Visual Studio 2015\Projects\Organizer\Organizer.TestData\obj\Debug\Organizer.TestData.dll
+E:\Visual Studio 2015\Projects\Organizer\Organizer.TestData\obj\Debug\Organizer.TestData.pdb

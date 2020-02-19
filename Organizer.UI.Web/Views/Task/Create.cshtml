@@ -1,0 +1,40 @@
+﻿
+@{
+    //Layout = Request.IsAjaxRequest() ? null : "~/Views/Shared/_Layout.cshtml";
+    Layout = null;
+}
+@model Organizer.UI.Web.Models.ViewModels.TaskViewModel
+
+@using (Ajax.BeginForm("Create", "Task", new AjaxOptions { }))
+{
+
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Добавление задачи</h4>
+    </div>
+    <div class="modal-body">
+
+        <div class="alert alert-danger" ng-if="TaskCreatingError">
+            Произошла ошибка при добавлении задачи
+        </div>
+
+        <p>
+            @Html.LabelFor(org => org.Description, "Описание задачи")
+        </p>
+        @Html.TextBoxFor(org => org.Description, new {@class = "form-control", style = "width:100%;"})
+        @Html.ValidationMessageFor(org => org.Description)
+    </div>           
+      
+    <div class="modal-footer">
+        <a>
+            <input type="submit"
+                   class="btn-success btn-lg"
+                   style="float: left;"
+                   value="Сохранить"
+                   ng-click="SubmitTask(); $event.preventDefault();"/>
+
+        </a>
+        <button type="button" class="btn-lg btn-default" data-dismiss="modal">Отменить</button>
+    </div>
+}
+
