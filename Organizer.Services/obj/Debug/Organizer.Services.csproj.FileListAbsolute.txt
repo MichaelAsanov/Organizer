@@ -16,3 +16,23 @@ E:\Visual Studio 2015\Projects\Organizer\Organizer.Services\bin\Debug\ru\EntityF
 E:\Visual Studio 2015\Projects\Organizer\Organizer.Services\obj\Debug\Organizer.Services.csprojResolveAssemblyReference.cache
 E:\Visual Studio 2015\Projects\Organizer\Organizer.Services\obj\Debug\Organizer.Services.dll
 E:\Visual Studio 2015\Projects\Organizer\Organizer.Services\obj\Debug\Organizer.Services.pdb
+E:\Projects\Organizer\Organizer.Services\bin\Debug\Organizer.Services.dll.config
+E:\Projects\Organizer\Organizer.Services\bin\Debug\Organizer.Services.dll
+E:\Projects\Organizer\Organizer.Services\bin\Debug\Organizer.Services.pdb
+E:\Projects\Organizer\Organizer.Services\bin\Debug\Common.dll
+E:\Projects\Organizer\Organizer.Services\bin\Debug\EntityFramework.dll
+E:\Projects\Organizer\Organizer.Services\bin\Debug\EntityFramework.SqlServer.dll
+E:\Projects\Organizer\Organizer.Services\bin\Debug\Organizer.Data.dll
+E:\Projects\Organizer\Organizer.Services\bin\Debug\Organizer.Domain.dll
+E:\Projects\Organizer\Organizer.Services\bin\Debug\Common.pdb
+E:\Projects\Organizer\Organizer.Services\bin\Debug\EntityFramework.xml
+E:\Projects\Organizer\Organizer.Services\bin\Debug\EntityFramework.SqlServer.xml
+E:\Projects\Organizer\Organizer.Services\bin\Debug\Organizer.Data.pdb
+E:\Projects\Organizer\Organizer.Services\bin\Debug\Organizer.Data.dll.config
+E:\Projects\Organizer\Organizer.Services\bin\Debug\Organizer.Domain.pdb
+E:\Projects\Organizer\Organizer.Services\bin\Debug\ru\EntityFramework.resources.dll
+E:\Projects\Organizer\Organizer.Services\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+E:\Projects\Organizer\Organizer.Services\obj\Debug\Organizer.Services.csprojAssemblyReference.cache
+E:\Projects\Organizer\Organizer.Services\obj\Debug\Organizer.Services.csproj.CopyComplete
+E:\Projects\Organizer\Organizer.Services\obj\Debug\Organizer.Services.dll
+E:\Projects\Organizer\Organizer.Services\obj\Debug\Organizer.Services.pdb

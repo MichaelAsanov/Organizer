@@ -5,3 +5,11 @@ E:\Visual Studio 2015\Projects\Organizer\Organizer.Domain\bin\Debug\Common.pdb
 E:\Visual Studio 2015\Projects\Organizer\Organizer.Domain\obj\Debug\Organizer.Domain.csprojResolveAssemblyReference.cache
 E:\Visual Studio 2015\Projects\Organizer\Organizer.Domain\obj\Debug\Organizer.Domain.dll
 E:\Visual Studio 2015\Projects\Organizer\Organizer.Domain\obj\Debug\Organizer.Domain.pdb
+E:\Projects\Organizer\Organizer.Domain\bin\Debug\Organizer.Domain.dll
+E:\Projects\Organizer\Organizer.Domain\bin\Debug\Organizer.Domain.pdb
+E:\Projects\Organizer\Organizer.Domain\bin\Debug\Common.dll
+E:\Projects\Organizer\Organizer.Domain\bin\Debug\Common.pdb
+E:\Projects\Organizer\Organizer.Domain\obj\Debug\Organizer.Domain.csprojAssemblyReference.cache
+E:\Projects\Organizer\Organizer.Domain\obj\Debug\Organizer.Domain.csproj.CopyComplete
+E:\Projects\Organizer\Organizer.Domain\obj\Debug\Organizer.Domain.dll
+E:\Projects\Organizer\Organizer.Domain\obj\Debug\Organizer.Domain.pdb

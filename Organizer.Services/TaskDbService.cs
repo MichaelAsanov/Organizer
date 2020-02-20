@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using Organizer.Data.DbContext;
 using Organizer.Domain.Interfaces;
@@ -20,7 +21,7 @@ namespace Organizer.Services
         {
             using (var context = new OrganizerDbContext())
             {
-                return context.Tasks.FirstOrDefault(x => x.Id == id);
+                return context.Tasks.AsNoTracking().FirstOrDefault(x => x.Id == id);
             }
         }
 
@@ -33,7 +34,7 @@ namespace Organizer.Services
         {
             using (var context = new OrganizerDbContext())
             {
-                return context.Tasks.ToList();
+                return context.Tasks.AsNoTracking().ToList();
             }
         }
 
